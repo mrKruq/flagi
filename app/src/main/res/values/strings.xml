@@ -2,5 +2,5 @@
     <string name="app_name">Flagi</string>
     <string name="polecenie">Które kolory nie występują we fladze Polski</string>
     <string name="podsumowanie">To jest flaga Polski</string>
-    <string name="blden">To jest kolor flagi Polski</string>
+    <string name="blden">To jest kolor we fladze Polski</string>
 </resources>
