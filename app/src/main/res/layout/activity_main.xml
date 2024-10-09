@@ -10,13 +10,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textViewPolecenie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:layout_margin="16dp"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:text="Które kolory nie występują we fladze Polski" />
+        android:text="@string/polecenie" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -28,13 +29,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
-            android:layout_margin="16dp"/>
+            android:layout_margin="16dp"
+            android:onClick="zlaOdpowiedz"
+            />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/teal_700"
+            android:onClick="dobraOdpowiedz"
             android:layout_margin="16dp"
             />
 
@@ -43,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
+            android:onClick="dobraOdpowiedz"
             android:layout_margin="16dp"
              />
     </LinearLayout>
@@ -58,13 +63,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#FF0000"
-            android:layout_margin="16dp"/>
+            android:layout_margin="16dp"
+            android:onClick="zlaOdpowiedz"/>
 
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFF000"
+            android:onClick="dobraOdpowiedz"
             android:layout_margin="16dp"
  />
 
@@ -73,6 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#000FFF"
+            android:onClick="dobraOdpowiedz"
             android:layout_margin="16dp"
              />
     </LinearLayout>
